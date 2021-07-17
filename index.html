@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+<!-- Masakazu Nakamura -->
+<!-- index.html -->
 <html lang="en">
 
 <head>
@@ -29,6 +31,11 @@
                     <h1>NuCamp</h1>
                     <h2>a better way to camp</h2>
                 </div>
+                <!-- Week 2 Workshop assignment Task 3 -->
+                <div class="col col-md-4 col-xl-2 mt-4">
+                    <a href="#reserveForm" class="text-nowrap"><button class="btn btn-info">Reserve Campsite</button></a>
+                </div>
+                <!-- End of Week 2 Workshop assignment Task 3 -->
             </div>
         </div>
     </header>
@@ -62,21 +69,28 @@
                     <div class="media-body align-self-center">
                         <h3>Our Campsites</h3>
                         <p class="d-none d-sm-block">Explore our growing database of curated campsites and leave your own  reviews!</p>
+
                     </div>
                 </div>
             </div>
-        </div>
+        </div>     
 
+        <!-- Week 2 Workshop assignment Task 1 -->
         <div class="row row-content align-item-center">
             <div class="col-sm-4 col-md-3">
                 <h2>Featured Campsites</h2>
             </div>
             <div class="col">
-                <h3>React Lake Campground</h3>
-                <p class="d-none d-sm-block">Nestled in the foothills of the Chrome Mountains, this campground on the shores of the pristine React Lake is a favorite for fly fishers.</p>
-            </div>
+                <div class="media">
+                    <div class="media-body">
+                        <h3>React Lake Campground</h3>
+                        <p class="d-none d-sm-block">Nestled in the foothills of the Chrome Mountains, this campground on the shores of the pristine React Lake is a favorite for fly fishers.</p>
+                    </div>
+                    <img class="d-flex ml-3  img-thumbnail" src="img/react-lake-thumb.jpg" alt="React Lake">
+                </div>
+            </div>          
         </div>
-
+        <!-- End of Week 2 Workshop assignment Task 1 -->
         <div class="row row-content align-item-center">
             <div class="col-sm-4 col-md-3 order-sm-last">
               <h2>Our Community Partners</h2>
@@ -91,6 +105,48 @@
                 </div>
             </div>
         </div>
+
+        <!-- Week 2 Workshop assignment Task 2 -->
+        <div class="row row-content">
+            <div class="col col-sm-6 mx-auto">
+                <div class="card">
+                    <h3 class="card-header bg-info text-white">Reserve a Campsite</h3>
+                    <div class="card-body">
+                        <form id="reserveForm" action="">
+                            <!-- user input for the number of campers -->
+                            <div class="row form-group">
+                                <label class="col-12 col-sm-6 col-form-label" for="numCampers">Number of Campers</label>
+                                <div class="col-12 col-sm-6">
+                                    <select class="form-control" name="numCampers" id="numCampers">
+                                        <option value="">Select...</option>
+                                        <option value="">1</option>
+                                        <option value="">2</option>
+                                        <option value="">3</option>
+                                        <option value="">4</option>
+                                        <option value="">5</option>
+                                        <option value="">6</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <!-- user input for date -->
+                            <div class="row form-group">
+                                <label class="col-12 col-sm-6 col-form-label" for="date">Date</label>
+                                <div class="col-12 col-sm-6">
+                                    <input class="form-control" type="date" id="date" name="date">
+                                </div>
+                            </div>
+                            <!-- submit button-->
+                            <div class="row">
+                                <div class="col">
+                                    <button class="btn btn-primary">Search</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End of Week 2 Workshop assignment Task 2 -->
     </div>
     <footer class="site-footer">
         <div class="container">
