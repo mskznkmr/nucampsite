@@ -7,6 +7,14 @@ body {
     font-family: "Open Sans", sans-serif;
 }
 
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+.carousel {
+    border: solid #5637DD;
+}
+
 h1, h2, h3 {
     font-family: "Lobster", cursive;
 }
