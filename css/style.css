@@ -15,6 +15,14 @@ body {
     border: solid #5637DD;
 }
 
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+}
+
+
 h1, h2, h3 {
     font-family: "Lobster", cursive;
 }
