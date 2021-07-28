@@ -55,7 +55,7 @@ header {
 
 .jumbotron {
     padding: 30px;
-    background-image: linear-gradient(to right, $color-secondary,$color-primary,color-dark);
+    background-image: linear-gradient(to right, $color-secondary,$color-primary,$color-dark);
     color: white;
     margin: 0;
 }
