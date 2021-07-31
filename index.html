@@ -33,7 +33,7 @@
                 <!-- Week 3 Workshop assignment Task 1 -->
                 <div class="col col-md-4 col-xl-2 mt-4">
                     <!-- <a href="#reserveForm" role="button" class="text-nowrap btn btn-info" data-toggle="tooltip" data-placement="bottom" data-html="true" title="Or call us at <br /> <strong>1-206-555-1234</strong>">Reserve Campsite</a> -->
-                    <a role="button" class="text-nowrap btn btn-info" data-toggle="modal" data-target="#reserveModal">Reserve Campsite</a>
+                    <a role="button" id="reserveButton" class="text-nowrap btn btn-info">Reserve Campsite</a>
 
                 </div>
                 <!-- End of Week 3 Workshop assignment Task 1 -->
@@ -45,7 +45,7 @@
     <div id="reserveModal" class="modal fade" role="dialog">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
-                <div class="modal-header bg-info text-white">
+                <div class="modal-header">
                     <h3 class="modal-title">Reserve a Campsite</h3>
                     <button class="close" type="button" data-dismiss="modal">&times;</button>
                 </div>
@@ -118,7 +118,7 @@
                     <li class="nav-item"><a class="nav-link" href="contactus.html"><i class="fa fa-address-card fa-lg"></i> Contact</a></li>
                 </ul>
                 <span class="navbar-text ml-auto">
-                    <a role="button" data-toggle="modal" data-target="#loginModal">
+                    <a role="button" data-toggle="modal" id="loginButton">
                         <i class="fa fa-sign-in"></i> Login
                     </a>
                 </span>
@@ -132,7 +132,7 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h3 class="modal-title">Login</h3>
-                    <button>&times;</button>
+                    <button class="close" type="button" data-dismiss="modal">&times;</button>
                 </div>
                 <div class="modal-body">
                     <div class="container-fluid">
